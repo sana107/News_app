@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+.span_2{
+  /* border: 2px solid rgb(112, 245, 79); */
+  width: 70%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.hello{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+#date{
+  font-weight: bold;
+  font-size: 12px;
+}
+#date-nav{
+  /* border: 2px solid yellow; */
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding-top: 1%;
+}
+
+#kaltak{
+  font-family: "Abril Fatface", serif;
+  font-size: 26px;
+  padding-left: 3%;
+}
+#icons_nav{
+  /* border:2px solid red; */
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1%;
+  font-size: 12px;
+}
+
+
+
+#list-cate a:hover{
+  color:rgba(13,202,240,255);
+ 
+}
+#navbar_1{
+/* height: 95px; */
+/* border: 2px solid red; */
+display: flex;
+padding-block: 20px;
+align-items: center;
+justify-content: space-between;
+
+}
+
+#themebtn{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 200px;
+
+  font-size: 22px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#parah{
+  font-size: 12px;
+}
+#parah2{
+  font-size: 12px;
+}
+#image{
+  height: 215px;
+}
+
+#read{
+  margin-bottom: 2%;
+}
