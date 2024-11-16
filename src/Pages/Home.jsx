@@ -5,7 +5,7 @@ import Slider from "../Components/Slider";
 import ThemeContext from "../Provider/Theme/ThemeContext";
 import NewsContext from "../Provider/News/NewsContext";
 import { fetchNews } from "../Provider/News/NewsAction";
-import { toast } from "react-toastify";
+// import { toast } from "react-toastify";
 
 const Home = () => {
   const { dark } = useContext(ThemeContext);
@@ -23,10 +23,10 @@ const Home = () => {
     getNews("indore");
   }, []);
 
-  if (!newsData || newsData?.length === 0) {
-    toast.error("Kindly Search Valid News!!");
-    getNews("Indore");
-  }
+  // if (!newsData || newsData?.length === 0) {
+  //   toast.error("Kindly Search Valid News!!");
+  //   getNews("Indore");
+  // }
 
   return (
     
