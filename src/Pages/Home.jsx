@@ -45,7 +45,7 @@ const Home = () => {
 
         <WeatherCard />
 
-        <marquee><h1 className="display-6 my-2">daily quotes</h1></marquee>
+        <marquee><h1 className="display-6 my-2">Breaking News &nbsp; Breaking News  &nbsp; Breaking News  &nbsp; Breaking News  &nbsp; Breaking News</h1></marquee>
         
       </div>
 
